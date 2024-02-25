@@ -1,0 +1,72 @@
+* {
+  font-family: "Helvetica";
+}
+
+body {
+  background-color: #f1f3ff !important;
+}
+
+.navbar {
+  height: 36px;
+  margin-top: 24px;
+  background-color: #f1f3ff;
+}
+
+.offcanvas li {
+  padding-right: 32px;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+#jumbotron {
+  background-color: #f1f3ff;
+}
+
+#register {
+  width: 81px;
+  height: 36px;
+  font-size: 14px;
+  background-color: #5cb85f;
+}
+
+#header {
+  max-width: 568px;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 16px;
+}
+
+#hero-description {
+  max-width: 468px;
+  font-size: 14px;
+}
+
+#second {
+  height: 1000px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* #img-car {
+    width: 300px;
+    height: 199px;
+  } */
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    margin-left: 136px;
+    margin-right: 136px;
+  }
+
+  .hero {
+    margin-top: 0px;
+    padding-left: 136px;
+  }
+
+  #img-car {
+    margin-left: -72px;
+  }
+}
