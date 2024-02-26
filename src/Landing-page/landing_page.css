@@ -26,7 +26,6 @@ body {
   line-height: 20px;
 }
 
-
 .list {
   margin-left: 16px;
 }
@@ -74,6 +73,14 @@ body {
   padding-left: 100px;
 }
 
+#h3 {
+  font-size: 14px;
+}
+
+#why-us {
+  font-size: 24px;
+}
+
 #title-featured {
   font-size: 16px;
 }
@@ -103,6 +110,7 @@ body {
     overflow: hidden;
     max-width: 268px;
     max-height: 196px;
+    margin-top: 40px;
     padding: 24px; /* Hides any content that overflows */
     /* Optionally, you can also set a max-width to prevent the div from expanding too much */ /* Adjust as needed */
   }
@@ -110,5 +118,10 @@ body {
   #paragraph-why-us {
     width: 220px;
     height: 60px;
+  }
+  #whyus-title-wrapper {
+    padding-left: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 }
