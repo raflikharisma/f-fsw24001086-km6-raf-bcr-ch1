@@ -35,6 +35,20 @@ body {
   border-radius: 8px;
 }
 
+.carousel-card {
+  max-width: 831px;
+  height: 270px;
+  background-color: #f1f3ff !important;
+  padding-right: 126px;
+}
+
+.carousel-row {
+}
+
+.testi-paragraph {
+  max-width: 400p;
+}
+
 #jumbotron {
   background-color: #f1f3ff;
 }
@@ -87,6 +101,10 @@ body {
 
 #paragraph-why-us {
   font-size: 14px;
+}
+
+#fourrh {
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {

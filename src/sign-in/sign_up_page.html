@@ -1,0 +1,69 @@
+<!-- copyright -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./sign_in_up.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  </head>
+  <body>
+    <section class="gradient-form m-0">
+      <div class="container-fluid m-0">
+        <div class="row">
+          <div class="col p-0">
+            <div class="card text-black border-0">
+              <div id="row" class="row g-0">
+                <!-- On mobile, show only the left column -->
+                <div id="left" class="col-lg-6">
+                  <div class="card-body m-auto m-sm-auto">
+                    <div class="text-start">
+                      <img id="logo-kotak-sign-up" src="/assets/image/Rectangle 62.png" alt="logo" />
+                    </div>
+                    <form class="">
+                      <h2 id="welcome-text">Sign Up</h2>
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example11">Name*</label>
+                        <input type="email" id="form2Example11" class="form-control" placeholder="Nama Lengkap" />
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example11">Email*</label>
+                        <input type="email" id="form2Example11" class="form-control" placeholder="Contoh: johndee@gmail.com" />
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example22">Create Password*</label>
+                        <input type="password" id="form2Example22" class="form-control" placeholder="6 + karakter" />
+                      </div>
+
+                      <div class="pt-1">
+                        <button id="submit-btn" class="btn btn-primary btn-block fa-lg gradient-custom-2" type="button">Log in</button>
+                      </div>
+                      <div id="sign-up" class="pb-4 text-center">
+                        <p class="fw-bold">
+                          Already have an account?? <span> <a id="a-href" href="./sign_in_page.html">Sign in here</a></span>
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- On desktop, show both columns -->
+                <div id="right" class="col-lg-6 d-lg-flex overflow-hidden gradient-custom-2 d-none d-lg-block">
+                  <div class="text-white px-3 p-md-5 mx-md-4">
+                    <h4 class="binar-car-rental my-0 p-0">Binar Car Rental</h4>
+                    <img class="landing position-relative bottom-0 end-0" src="/assets/image/Landing page - Desktop.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
