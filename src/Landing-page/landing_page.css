@@ -101,6 +101,16 @@ footer li p {
   margin-bottom: 16px;
 }
 
+.faq-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.faq-header h3 {
+  font-size: 14px;
+}
+
 .copyright,
 .socmed-icon {
   font-size: 14px;
@@ -173,9 +183,46 @@ footer li p {
     padding-top: 24px;
   }
 
-  .featured-card {
-    margin: auto;
-    width: 290px !important;
+  .carousel-card {
+    width: 328px;
+    height: 392px;
+  }
+
+  .feature.col.me-3 {
+    margin-left: 4px;
+    width: 100%;
+  }
+
+  .testi-paragraph {
+    height: 148px;
+    width: 264px;
+    margin-left: 90px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+
+  .testi-author {
+    margin-top: 15px;
+    margin-right: 40px;
+  }
+
+  .rate-testi {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .img-testi {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+
+  .carousel-control-prev {
+    margin-bottom: 200px;
+  }
+
+  .carousel-control-next {
+    margin-bottom: 200px;
   }
 
   .accordion-item {
@@ -214,8 +261,7 @@ footer li p {
     max-width: 268px;
     max-height: 196px;
     margin-top: 40px;
-    padding: 24px; /* Hides any content that overflows */
-    /* Optionally, you can also set a max-width to prevent the div from expanding too much */ /* Adjust as needed */
+    padding: 24px;
   }
 
   .cta-banner {
@@ -225,16 +271,6 @@ footer li p {
 
   .faq-header {
     margin-left: 220px;
-  }
-
-  .faq-header h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 16px;
-  }
-
-  .faq-header h3 {
-    font-size: 14px;
   }
 
   .accordion-header button {
