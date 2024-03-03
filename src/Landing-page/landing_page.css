@@ -4,7 +4,12 @@
 
 body {
   margin: 0 !important;
+  padding: 0 !important;
   background-color: #f1f3ff !important;
+}
+
+footer li p {
+  font-size: 14px;
 }
 
 .navbar {
@@ -96,6 +101,11 @@ body {
   margin-bottom: 16px;
 }
 
+.copyright,
+.socmed-icon {
+  font-size: 14px;
+}
+
 #jumbotron {
   background-color: #f1f3ff;
 }
@@ -155,8 +165,36 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .img-second-sec {
+    margin-left: 20px;
+  }
+
   .feature-icon {
     padding-top: 24px;
+  }
+
+  .featured-card {
+    margin: auto;
+    width: 290px !important;
+  }
+
+  .accordion-item {
+    margin-left: 2px;
+    max-width: 350px;
+  }
+
+  #right-col-second {
+    padding-left: 30px;
+  }
+
+  #why-us {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #mengapa-harus {
+    font-size: 14px;
+    text-align: center;
   }
 }
 
